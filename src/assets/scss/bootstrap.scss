@@ -1,0 +1,17 @@
+$theme-colors: (
+  'primary': #1976d2,
+  'secondary': #424242,
+  'success': #4caf50,
+  'warning': #ffc107,
+  'danger': #ff5252,
+  'info': #82b1ff,
+  'light': #ffffff,
+  'dark': #000000
+);
+
+// Import Bootstrap and BootstrapVue CSS files (order is important)
+// Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+// BootstrapVue and its default variables
+@import '~bootstrap-vue/src/index.scss';
